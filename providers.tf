@@ -1,7 +1,6 @@
 terraform {
   cloud {
     organization = "samuellee-org"
-    hostname     = "app.terraform.io" # Optional; defaults to app.terraform.io
 
     workspaces {
       name = "samuellee-org-tfc-projects"
