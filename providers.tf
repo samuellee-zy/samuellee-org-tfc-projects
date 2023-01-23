@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = var.orgName
+    organization = "samuellee-org"
     hostname     = "app.terraform.io" # Optional; defaults to app.terraform.io
 
     workspaces {
